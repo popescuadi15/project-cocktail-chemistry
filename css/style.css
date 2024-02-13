@@ -1,0 +1,184 @@
+* RESET */ *,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* VARIABLES */
+:root {
+  /* COLORS */
+  --c-bg-crem: #f6ead4;
+  --c-dark: #251f25;
+  --c-brand: #7f137c;
+  --c-brand-light: #ad49aa;
+  --c-brand-rgb: 127, 19, 124;
+  --c-body: #727272;
+  --font-base: 'Roboto', sans-serif;
+  --font-imperial: 'Imperial Script', cursive;
+  --box-shadow: 0px 15px 25px rgba(0, 0, 0, 0.8);
+  --transition: all 0.5s ease;
+}
+
+/* Header styles */
+
+/* header {
+  background-image: url('../images/inca-nu-e-gata-4.png');
+  height: 100vh;
+  background-blend-mode: multiply;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 3rem;
+  position: relative;
+  text-align: center;
+  color: black;
+} */
+
+header {
+  height: 75vh; /* 3/4 din înălțimea ecranului */
+  background-image: url('../images/pozabar.jpg');
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Styles for the header title */
+.header-title {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: var(--font-imperial);
+  font-size: 64px;
+  text-shadow: 4px 4px 4px #373636;
+}
+
+.header-title span {
+  display: block;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 991px) {
+  .sidebar {
+    background-color: rgba(255, 255, 255, 0.25);
+  }
+}
+
+/* Body styles */
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-base);
+  line-height: 1.7;
+  color: var(--c-body);
+}
+
+/* Styles for the mobile experience section */
+
+#about {
+  /* margin-bottom: 30px; */
+  /* background-color: #251f25; */
+}
+
+#about p {
+  font-size: 24px;
+}
+
+#about p span {
+  /* font-weight: bold; */
+  color: var(--c-brand-light);
+}
+
+.about-title {
+  color: var(--c-brand);
+}
+
+.experienta-mobila {
+  /* background-color: var(--c-bg-crem); */
+}
+/* Styles for "o ambianta mobila unica" section */
+.ambianta-mobila {
+  /* margin-bottom: 50px; */
+  /* background-color: rgba(35, 117, 1, 1); */
+}
+
+.ambianta-mobila p {
+  font-size: 24px;
+  text-align: center;
+}
+
+.ambianta-mobila h1 span {
+  margin: 1.5rem;
+  text-align: center;
+}
+
+/* Footer Styles */
+footer.footer {
+  background-color: #251f25;
+  color: #fff;
+  padding: 2rem 0;
+}
+
+/* Responsive Layout */
+.footer .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.col-lg-6 {
+  flex: 0 0 45%;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+  .col-lg-6 {
+    flex: 0 0 100%;
+  }
+}
+
+/* Social Icons */
+.social-icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 1.5rem;
+  margin: 0 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.social-icons a:hover {
+  color: #7f137c;
+}
+
+/* Contact Info */
+.contact-info p {
+  margin-bottom: 0.5rem;
+  line-height: 1.7;
+}
+
+.contact-info a {
+  color: #7f137c;
+  text-decoration: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-info a:hover {
+  color: #fff;
+}
