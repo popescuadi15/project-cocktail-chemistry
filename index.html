@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ro">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="author" content="Popescu Adi" />
+    <meta
+      name="description"
+      content="The official website for the Cocktail Chemistry Bar"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Cocktail Chemistry</title>
+    <link
+      rel="icon"
+      href="../cocktail-chemistry_project/logo-bar-icon.ico"
+      type="image/x-icon"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap"
+      rel="stylesheet"
+    />
+    
+
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- <script defer src="script.js"></script> -->
+  </head>
+
+  <body>
+    <header class="vh-75 overflow-hidden">
+      <!-- Navbar -->
+      <div class="overlay"></div>
+      <nav class="navbar navbar-dark navbar-expand-lg bg-transparent">
+        <div class="container">
+          <a href="index.html" class="navbar-brand fs-4">
+            <img src="images/logo-bar.png" alt="logo" width="120" height="80" />
+          </a>
+
+          <!-- Toogle Btn -->
+          <button
+            class="navbar-toggler shadow-none border-0"
+            type="button"
+            data-bs-toggle="offcanvas"
+            data-bs-target="#offcanvasNavbar"
+            aria-controls="offcanvasNavbar"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- SideBar -->
+          <div
+            class="sidebar offcanvas offcanvas-start"
+            tabindex="-1"
+            id="offcanvasNavbar"
+            aria-labelledby="offcanvasNavbarLabel"
+          >
+            <!-- SideBar Header -->
+            <div class="offcanvas-header text-white border-bottom">
+              <h5 class="offcanvas-title" id="offcanvasNavbarLabel">
+                Cocktail Chemistry Bar
+              </h5>
+              <button
+                type="button"
+                class="btn-close btn-close-white shadow-none"
+                data-bs-dismiss="offcanvas"
+                aria-label="Close"
+              ></button>
+            </div>
+
+            <!-- SideBar Body -->
+            <div
+              class="offcanvas-body d-flex flex-column flex-lg-row p-4 p-lg-0"
+            >
+              <ul
+                class="navbar-nav justify-content-center align-items-center flex-grow-1 pe-3"
+              >
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#about">Despre noi</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="menu.html" target="_blank">Meniu</a>
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="services.html" target="_blank"
+                    >Servicii</a
+                  >
+                </li>
+                <li class="nav-item mx-2">
+                  <a class="nav-link" href="#contact">Contact</a>
+                </li>
+              </ul>
+
+              <div
+                class="d-flex flex-column justify-content-center align-items-center flex-lg-row gap-3"
+              >
+                <a
+                  href="https://www.facebook.com/PromotorEvenimente"
+                  target="_blank"
+                  class="text-white text-decoration-none px-3 py-1 rounded-4"
+                  ><i class="fab fa-facebook"></i
+                ></a>
+                <a
+                  href="https://www.instagram.com/cocktailchemistry1/?igshid=NzZlODBkYWE4Ng%3D%3D"
+                  target="_blank"
+                  class="text-white text-decoration-none px-3 py-1 rounded-4"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a
+                  href="https://www.tiktok.com/@cocktail.chemistry1?_t=8ix43IeuPZ3&_r=1"
+                  target="_blank"
+                  class="text-white text-decoration-none px-3 py-1 rounded-4"
+                  ><i class="fab fa-tiktok"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      
+    </header>
+    <section id="home" class="mt-5 d-flex align-items-center text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <h1 class="header-title">
+              <!-- <span class="d-block">Cocktail Chemistry</span>
+              <span class="d-block">Bar</span> -->
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- main -->
+    <main class="main-content vh-75 overflow-hidden">
+      <!--  experienta mobila section-->
+      <section id="about" class="section-padding experienta-mobila">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto text-center">
+              <h1 class="p-4 m-4 min-vh-50 text-center">
+                <span class="d-block about-title">"Cocktail Chemistry"</span>
+                <span class="d-block"
+                  >Experiența mobilă a băuturilor rafinate!</span
+                >
+              </h1>
+              <p>
+                <span>"Cocktail Chemistry"</span>
+                redefinește conceptul de servire a cocktail-urilor, aducând
+                magia direct la evenimentele tale speciale.<br />
+                Suntem un bar mobil, pregătit să transforme nunțile, botezurile,
+                majoratele și orice alt eveniment într-o experiență memorabilă.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- ambianta mobila unica section -->
+      <section class="border-top ambianta-mobila">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mx-auto py-5 text-center text-lg-start">
+              <img
+                src="images/bar-lemn-bg-gri_737x1023.png"
+                alt="Bar de Lemn"
+                width="737"
+                height="1023"
+                class="img-fluid rounded"
+              />
+            </div>
+
+            <div
+              class="col-lg-6 mx-auto text-start align-items-center justify-content-center"
+            >
+              <h1 class="p-5 mt-1 align-items-center">
+                <span class="d-block">O ambianță mobilă unică</span>
+              </h1>
+              <p>
+                Cu "Cocktail Chemistry", aducem atmosfera vibrantă a unui bar
+                direct la tine.<br />
+                Cu o estetică modernă și lumini strălucitoare, creăm un punct
+                central al distracției și relaxării, fie că suntem în grădină,
+                pe plajă sau într-un spațiu de evenimente.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- meniu refined on-the-go section -->
+      <section class="section-padding border-top meniu-refined">
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col-lg-6 mx-auto text-start py-5">
+              <h1 class="p-5 mt-1 align-items-center">
+                <span class="d-block text-center">Meniu Refined On-the-Go</span>
+              </h1>
+              <p class="text-center fs-4">
+                Descoperă un meniu de cocktail-uri variat și pregătit cu măiestrie
+            oriunde ne aflăm.<br />
+            De la cocktail-uri clasice la creații personalizate, fiecare băutură
+            este gândită să aducă un plus de eleganță și savoare evenimentului
+            tău.
+              </p>
+            </div>
+          
+          <div class="col-lg-6 mx-auto py-5 text-center text-lg-end">
+            <img
+              src="images/poza-bauturi-zigzag.png"
+              alt="Meniu"
+              width="6300"
+              height="4455"
+              class="img-fluid rounded"
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- flexibilitate si personalizare section -->
+      <section class="section-padding border-top flexibilitate">
+        <div class="container">
+          <div class="row align-items-center">
+            
+          
+          <div class="col-lg-6 mx-auto py-5 text-center text-lg-end">
+            <img
+              src="images/bar-lemn-musa_1600x1022.JPG"
+              alt="Meniu"
+              width="6300"
+              height="4455"
+              class="img-fluid rounded"
+            />
+          </div>
+
+          <div class="col-lg-6 mx-auto text-start py-5">
+            <h1 class="p-5 mt-1 align-items-center">
+              <span class="d-block text-center">Flexibilitate și Personalizare</span>
+            </h1>
+            <p class="text-center fs-4">
+              Suntem aici pentru a face evenimentul tău unic. Fie că ai teme
+          specifice sau preferințe ale oaspeților, ne adaptăm pentru a crea o
+          experiență personalizată și memorabilă.
+            </p>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer id="contact" class="footer section-padding border-top bg-dark">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6 text-center">
+            <h3>Follow us</h3>
+            <div class="social-icons">
+              <a href="https://www.facebook.com/PromotorEvenimente" target="_blank"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/cocktailchemistry1/?igshid=NzZlODBkYWE4Ng%3D%3D" target="_blank"><i class="fab fa-instagram"></i></a>
+              <a href="https://www.tiktok.com/@cocktail.chemistry1?_t=8ix43IeuPZ3&_r=1" target="_blank"><i class="fab fa-tiktok"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3>Contact</h3>
+            <div class="contact-info">
+              <p><i class="bi bi-envelope-fill"></i> <a href="mailto:cocktailchemistry@yahoo.com">cocktailchemistry@yahoo.com</a></p>
+              <p><i class="bi bi-telephone-fill"></i> <a href="tel:0737350737">0737 350 737</a></p>
+              <p><i class="bi bi-geo-fill"></i> <a href="https://www.google.com/maps/place/Str.+Violetelor+15,+S%C3%A2nandrei+307375/@45.8522452,21.1703259,17z/data=!3m1!4b1!4m6!3m5!1s0x47456ed1b5bf6f85:0x13fce3d67deb1621!8m2!3d45.8522452!4d21.1729008!16s%2Fg%2F11tc2tm611?entry=ttu" target="_blank">Str. Violetelor 15, Sânandrei 307375</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+          
+  </body>
+</html>
